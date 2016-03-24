@@ -1,0 +1,51 @@
+@import "_reset.scss";
+@import "_mixin.scss";
+@import "_variables.scss";
+
+body{
+	header{
+		.navbar-brand{
+		    padding: 2px;
+		    border: 1px solid #E9E9E9;
+		    padding-bottom: 45px;
+		    padding-left: 10px;
+		    padding-right: 11px;
+		    h5{
+		    	font-weight: 700;
+    			color: black;
+    			line-height: 1.8;
+    			letter-spacing: 2.5px;
+		    }
+		}
+		.navbar-nav{
+			border-bottom:  1px solid #E9E9E9;
+			border-top:  1px solid #E9E9E9;
+			border-right: 1px solid #E9E9E9;
+			padding-right: 23.5%;
+			padding-left: 2%;
+			li{
+				a {
+    			padding:13.5px 20px;
+    			}
+    		}
+    	}
+    	.search{
+   			color: yellow;
+		    padding: 1.1%;
+    		padding-left: 2.5%;
+    		margin-left: 95%;
+    		border: 1px solid #E9E9E9;
+    		padding-right: 4.5%;
+		}		
+	}
+	section{
+		.logo{
+			margin: auto;
+			text-align: center;
+			img{
+				 -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+			}
+		}
+	}
+}

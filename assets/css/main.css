@@ -1,0 +1,38 @@
+.container-fluid { padding-right: 0px !important; }
+
+* { margin: 0; padding: 0; }
+
+a { text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6, p { margin: 0; padding: 0; border: 0; vertical-align: baseline; font-weight: normal; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+.fix { overflow: hidden; }
+
+.floatleft { float: left; }
+
+.floatright { float: right; }
+
+img { max-width: 100%; height: auto; }
+
+body header .navbar-brand { padding: 2px; border: 1px solid #E9E9E9; padding-bottom: 45px; padding-left: 10px; padding-right: 11px; }
+body header .navbar-brand h5 { font-weight: 700; color: black; line-height: 1.8; letter-spacing: 2.5px; }
+body header .navbar-nav { border-bottom: 1px solid #E9E9E9; border-top: 1px solid #E9E9E9; border-right: 1px solid #E9E9E9; padding-right: 23.5%; padding-left: 2%; }
+body header .navbar-nav li a { padding: 13.5px 20px; }
+body header .search { color: yellow; padding: 1.1%; padding-left: 2.5%; margin-left: 95%; border: 1px solid #E9E9E9; padding-right: 4.5%; }
+body section .logo { margin: auto; text-align: center; }
+body section .logo img { -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); }
+
+/*# sourceMappingURL=main.css.map */
